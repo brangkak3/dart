@@ -1,8 +1,9 @@
 
 import 'person.dart';
+import 'student.dart';
 
 void main() {
-  Person p = Person();
+  Student p = Student();
 
   print(p.name);
 }
