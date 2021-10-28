@@ -1,7 +1,7 @@
 class Person {
   String name;
 
-  Person(name) {
+  Person({String name = 'brangkak'}) {
     this.name = name;
   }
 }
